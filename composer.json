@@ -1,0 +1,13 @@
+{
+    "name": "wp/metrics",
+    "description": "Testing metrics",
+    "authors": [
+        {
+            "name": "John Smith",
+            "email": "john@example.com"
+        }
+    ],
+    "require": {
+        "pdepend/pdepend": "2.0.0"
+    }
+}
