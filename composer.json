@@ -9,5 +9,8 @@
     ],
     "require": {
         "pdepend/pdepend": "2.0.0"
+    },
+    "autoload": {
+        "classmap": ["src/"]
     }
 }
