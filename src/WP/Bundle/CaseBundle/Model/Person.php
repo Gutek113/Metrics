@@ -12,7 +12,23 @@ class Person
     /**
      * @var string
      */
-    private $name = 'Janek';
+    private $name;
+
+    /**
+     * @var Adress
+     */
+    private $adres;
+
+    /**
+     * @param Adress $adress
+     * @param $name
+     */
+    public function __construct(Adress $adress, $name)
+    {
+        $this->name     = $name;
+        $this->adres    = $adress;
+
+    }
 
     /**
      * @return string
