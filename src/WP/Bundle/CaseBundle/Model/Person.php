@@ -38,4 +38,14 @@ class Person
         return $this->name;
     }
 
+    /**
+     * Metoda odpowiedzialna za utworzenie nowego adresu.
+     *
+     * @return Adress
+     */
+    public function createNewAdress()
+    {
+        return new Adress();
+    }
+
 } 
